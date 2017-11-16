@@ -5,6 +5,7 @@
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
@@ -77,66 +78,65 @@
                 <!-- Bottom switcher of slider -->
                 <ul class="hide-bullets">
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-0">
-                            <img src="http://placehold.it/150x150&text=zero">
+                        <a class="thumbnail" id="carousel-selector-0"><img src="images/0.jpeg">
                         </a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-1"><img src="http://"></a>
+                    <a class="thumbnail" id="carousel-selector-1"><img src="images/1.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-2"><img src="http://placehold.it/150x150&text=2"></a>
+                    <a class="thumbnail" id="carousel-selector-2"><img src="images/2.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-3"><img src="http://placehold.it/150x150&text=3"></a>
+                    <a class="thumbnail" id="carousel-selector-3"><img src="images/3.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-4"><img src="http://placehold.it/150x150&text=4"></a>
+                        <a class="thumbnail" id="carousel-selector-4"><img src="images/4.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-5"><img src="http://placehold.it/150x150&text=5"></a>
+                        <a class="thumbnail" id="carousel-selector-5"><img src="images/5.jpg"></a>
                     </li>
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-6"><img src="http://placehold.it/150x150&text=6"></a>
-                    </li>
-
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-7"><img src="http://placehold.it/150x150&text=7"></a>
+                        <a class="thumbnail" id="carousel-selector-6"><img src="images/6.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-8"><img src="http://placehold.it/150x150&text=8"></a>
+                        <a class="thumbnail" id="carousel-selector-7"><img src="images/7.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-9"><img src="http://placehold.it/150x150&text=9"></a>
-                    </li>
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-10"><img src="http://placehold.it/150x150&text=10"></a>
+                        <a class="thumbnail" id="carousel-selector-8"><img src="images/8.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-11"><img src="http://placehold.it/150x150&text=11"></a>
+                        <a class="thumbnail" id="carousel-selector-9"><img src="images/9.jpg"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-10"><img src="images/10.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-12"><img src="http://placehold.it/150x150&text=12"></a>
+                        <a class="thumbnail" id="carousel-selector-11"><img src="images/11.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-13"><img src="http://placehold.it/150x150&text=13"></a>
-                    </li>
-                    <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-14"><img src="http://placehold.it/150x150&text=14"></a>
+                        <a class="thumbnail" id="carousel-selector-12"><img src="images/12.jpg"></a>
                     </li>
 
                     <li class="col-sm-3">
-                        <a class="thumbnail" id="carousel-selector-15"><img src="http://placehold.it/150x150&text=15"></a>
+                        <a class="thumbnail" id="carousel-selector-13"><img src="images/13.jpg"></a>
+                    </li>
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-14"><img src="images/14.jpg"></a>
+                    </li>
+
+                    <li class="col-sm-3">
+                        <a class="thumbnail" id="carousel-selector-15"><img src="images/15.jpg"></a>
                     </li>
                 </ul>
             </div>

@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
@@ -24,7 +25,7 @@
 
 
 <div style="padding-left:16px">
-  <h2 align="center" style="background-color: lightsalmon">صفحة اضافة</h2>
+  <h2 align="center" style="background-color: #A7A7A7">صفحة اضافة</h2>
    
    
    
@@ -38,12 +39,17 @@
     
     
      <label for="country">نوع اللباس&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
-  
-  <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
-    <option value="1">علوي</option>
-    <option value="2">سفلي</option>
-    <option value="3">حذاء</option>
-  </select>
+  <div class="dropdown">
+    &nbsp; &nbsp;
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">اختر لباس
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">علوي</a></li>
+      <li><a href="#">سفلي</a></li>
+      <li><a href="#">حذاء</a></li>
+    </ul>
+  </div>
+</div>
    <p>
   
 
