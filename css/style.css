@@ -1,4 +1,9 @@
 /*  محمد الجويعد ستايل الإخفاء والإظهار الى صفحة set.php*/
+@import url(//fonts.googleapis.com/earlyaccess/notokufiarabic.css); /* اضافة الخط في جميع الصفحات */
+
+body{
+	font-family: 'Noto Kufi Arabic', sans-serif;
+}
 #myDIV {
     width: 100%;
     padding: 50px 0;
