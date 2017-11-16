@@ -24,7 +24,31 @@
 <body>
 
     <div class="topnav" id="myTopnav"><?php include("nav.php"); ?></div>
-
+    <div class="container">
+    <br>
+    <br>
+    <div class="media">
+    <div class="media-body">
+      <h4 class="media-heading">تم إنشاء هذا التطبيق بواسطة طلاب المشروع في الكلية التقنية ببريدة 1439هـ</h4>
+      <p>هذا البرنامج يقوم بمساعدتك على تنسيق ملابسك .</p>
+      <br>
+      <p>تم بناء هذا التطبيق من قبل أشراف الاستاذ: محمد العبودي وطلاب المشروع :</p>
+      
+      <UL>
+ <LI>محمد الجويعد
+ <LI>فيصل العنزي
+ <LI>محمد الحربي
+ <LI>رواف الرواف 
+ </UL>
+    </div>
+    <div class="media-right">
+      <img src="images/tvtc.png" class="media-object" style="width:200px">
+    </div>
+  </div>
+</div>
+ </div>
+  <hr>
+	
 
 </body>
 

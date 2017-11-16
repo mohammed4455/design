@@ -12,45 +12,69 @@
     <script src="js/script.js"></script>
     <script>
     $(document).ready(function(){
-
         
     })
     </script>
+   <!-- اثناء الضغط على تفاصيل -->
+    <script> 
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover();   
+});
+</script>
+
+
 </head>
 <body>
 
 <div class="topnav" id="myTopnav"><?php include("nav.php"); ?></div>
 
-
-<div style="padding-right:16px">
-  <h2>اخر التصاميمً</h2>
+ <div class="container">
+  <h2>اخر التصاميم</h2>
+  
+   <button class="btn btn-primary" onclick="myFunction()" data-toggle="collapse" data-target="#myDIV">طقم رياضي</button>
    
-   <label for="fa"    ></label>
-<input type="text" name="fa" placeholder="اسم التصميم"></div>
-
    
-</div>
-<div class="col-xs-12 col-md-12" dir="rtl">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/T-shirt.jpg" height="150" width="150">
- <button type="button" class="btn btn-danger">اسم المتجر</button>
- </div>
- <br>
- 
- <div class="col-xs-12 col-md-12" dir="rtl">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/jeans_black.png" height="150" width="150">
- <button type="button" class="btn btn-danger">اسم المتجر</button>
+   <div id="myDIV" class="collapse collapsed" > <!-- اسفله يكون مخفي الا اذا تم الضغط على اسم الطقم -->
+
+<div class="row">
+
+	<div class="col-xs-6" style="text-align: left">
+	 <img src="images/T-shirt.jpg" height="150" width="150">
 	</div>
 	
- <br>
- <div class="col-xs-12 col-md-12" dir="rtl">
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/sho02.jpg" height="50" width="50">
-<button type="button" class="btn btn-danger">اسم المتجر</button>
+  <div>
+  
+	<div class="col-xs-6">
+ <a href="#" id="popover" data-toggle="popover" data-content=" الفالح">التفاصيل</a>
+	 </div>	 
+  </div>
+  
+</div>
+ 
+
+ 
+ <div class="row">
+	<div class="col-xs-6" style="text-align: left">
+	  <img src="images/jeans_black.png" height="150" width="150">
 	</div>
+	
+<div>
+	<div class="col-xs-6">
+   <a href="#" id="popover" data-toggle="popover" data-content=" الفالح">التفاصيل</a>
+	</div>
+</div>	
+ </div>
+ <div class="row">
+	<div class="col-xs-6" style="text-align: left;padding-left:65px" >
+		<img src="images/sho02.jpg" height="50" width="50">
+	</div>
+<div>	
+	<div class="col-xs-6">	
+ <a href="#" id="popover" data-toggle="popover" data-content=" ادي داس">التفاصيل</a>	</div>
+</div>	
+</div>
 
-</body>
-</html>
-
-
+	</div>
 
 </body>
 </html>
