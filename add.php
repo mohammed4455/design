@@ -22,10 +22,9 @@
 
 
 
+<div class="container">
 
-
-<div style="padding-left:16px">
-  <h2 align="center" style="background-color: #A7A7A7">صفحة اضافة</h2>
+<h2 align="center" style="background-color: #A7A7A7">صفحة اضافة</h2>
    
    
    
@@ -38,19 +37,32 @@
       </p>
     
     
-     <label for="country">نوع اللباس&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</label>
-  <div class="dropdown">
-    &nbsp; &nbsp;
+    
+    
+    
+    
+<div class="row">   
+
+ <div class="col-sm-2">
+  <label for="country">نوع اللباس</label>
+ </div>   
+   
+   
+ <div class="col-sm-10">   
+   <div class="dropdown">
     <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">اختر لباس
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
-      <li><a href="#">علوي</a></li>
-      <li><a href="#">سفلي</a></li>
+      <li><a href="#">تيشيرت</a></li>
+      <li><a href="#">سروال</a></li>
       <li><a href="#">حذاء</a></li>
     </ul>
+   </div>
   </div>
+  
+  
 </div>
-   <p>
+
   
 
 <div class="bd-example" data-example-id="">
@@ -79,6 +91,6 @@ function myFunction() {
 	
 </script>
 	</form>
-		
+	</div>	
 </body>
 </html>
