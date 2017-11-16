@@ -24,35 +24,18 @@ $(document).ready(function(){
 });
 </script>
 
-<!-- للإخفاء والإظهار -->
-<script>
-function myFunction() {
-	
-	$("#myDIV").slideToggle()
-	
-	/*
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-	*/
-}
-</script>
-
 </head>
 <body>
 
 <div class="topnav" id="myTopnav"><?php include("nav.php"); ?></div>
 
- <div style="padding-right:16px">
+ <div class="container">
   <h2>أطقم قمت بإنشائها مسبقاً</h2>
   
-   <button class="btn btn-primary" onclick="myFunction()">طقم صيفي</button>
+   <button class="btn btn-primary" data-toggle="collapse" data-target="#myDIV">طقم صيفي</button>
    
    
-   <div id="myDIV"> <!-- اسفله يكون مخفي الا اذا تم الضغط على اسم الطقم -->
+   <div id="myDIV" class="collapse collapsed"> <!-- اسفله يكون مخفي الا اذا تم الضغط على اسم الطقم -->
 
 <div class="row">
 
@@ -60,10 +43,10 @@ function myFunction() {
 	 <img src="images/T-shirt.jpg" height="150" width="150">
 	</div>
 	
-  <div class="container">
+  <div>
   
 	<div class="col-xs-6">
-	 <a href="#" data-toggle="popover" title="طقي صيفي" data-content="تي شيرت ازرق للرياضه من متجر الفالح">التفاصيل</a>
+	 <a href="#" id="popover" data-toggle="popover" title="طقي صيفي" data-content="تي شيرت ازرق للرياضه من متجر الفالح">التفاصيل</a>
 	 </div>	 
   </div>
   
@@ -76,9 +59,9 @@ function myFunction() {
 	  <img src="images/jeans_black.png" height="150" width="150">
 	</div>
 	
-<div class="container">
+<div>
 	<div class="col-xs-6">
-	  <a href="#" data-toggle="popover" title="طقم صيفي" data-content="سروال مطاطي من متجر الفالح">التفاصيل</a>
+   <a href="#" id="popover" data-toggle="popover" title="طقم صيفي" data-content="سروال مطاطي من متجر الفالح">التفاصيل</a>
 	</div>
 </div>	
  </div>
@@ -86,9 +69,9 @@ function myFunction() {
 	<div class="col-xs-6" style="text-align: left;padding-left:65px" >
 		<img src="images/sho02.jpg" height="50" width="50">
 	</div>
-<div class="container">	
+<div>	
 	<div class="col-xs-6">	
- <a href="#" data-toggle="popover" title="طقم صيفي" data-content="حذاء رياضي من متجر ادي داس">التفاصيل</a>	</div>
+ <a href="#" id="popover" data-toggle="popover" title="طقم صيفي" data-content="حذاء رياضي من متجر ادي داس">التفاصيل</a>	</div>
 </div>	
 </div>
 
