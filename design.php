@@ -2,14 +2,14 @@
 <!doctype html>
 <html dir="rtl">
 <head>
-    <meta charset="utf-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
     <script>
     $(document).ready(function(){
 
@@ -149,52 +149,52 @@
                                 <!-- Carousel items -->
                                 <div class="carousel-inner">
                                     <div class="active item" data-slide-number="0">
-                                        <img src="http://placehold.it/470x480&text=zero"></div>
+                                        <img src="images/0.jpeg"></div>
 
                                     <div class="item" data-slide-number="1">
-                                        <img src="http://placehold.it/470x480&text=1"></div>
+                                        <img src="images/1.jpeg"></div>
 
                                     <div class="item" data-slide-number="2">
-                                        <img src="http://placehold.it/470x480&text=2"></div>
+                                        <img src="images/2.jpeg"></div>
 
                                     <div class="item" data-slide-number="3">
-                                        <img src="http://placehold.it/470x480&text=3"></div>
+                                        <img src="images/3.jpeg"></div>
 
                                     <div class="item" data-slide-number="4">
-                                        <img src="http://placehold.it/470x480&text=4"></div>
+                                        <img src="images/4.jpeg"></div>
 
                                     <div class="item" data-slide-number="5">
-                                        <img src="http://placehold.it/470x480&text=5"></div>
+                                        <img src="images/5.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="6">
-                                        <img src="http://placehold.it/470x480&text=6"></div>
+                                        <img src="images/6.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="7">
-                                        <img src="http://placehold.it/470x480&text=7"></div>
+                                        <img src="images/7.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="8">
-                                        <img src="http://placehold.it/470x480&text=8"></div>
+                                        <img src="images/8.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="9">
-                                        <img src="http://placehold.it/470x480&text=9"></div>
+                                        <img src="images/9.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="10">
-                                        <img src="http://placehold.it/470x480&text=10"></div>
+                                        <img src="images/10.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="11">
-                                        <img src="http://placehold.it/470x480&text=11"></div>
+                                        <img src="images/11.jpeg"></div>
                                     
                                     <div class="item" data-slide-number="12">
-                                        <img src="http://placehold.it/470x480&text=12"></div>
+                                        <img src="images/12.jpeg"></div>
 
                                     <div class="item" data-slide-number="13">
-                                        <img src="http://placehold.it/470x480&text=13"></div>
+                                        <img src="images/13.jpeg"></div>
 
                                     <div class="item" data-slide-number="14">
-                                        <img src="http://placehold.it/470x480&text=14"></div>
+                                        <img src="images/14.jpeg"></div>
 
                                     <div class="item" data-slide-number="15">
-                                        <img src="http://placehold.it/470x480&text=15"></div>
+                                        <img src="images/15.jpeg"></div> 
                                 </div>
                                 <!-- Carousel nav -->
                                 <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -216,11 +216,22 @@
         
               
                            
-                            
+  
+                                                      
                               
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-<button type="submit" class="btn btn-primary">حفظ</button>
-<button type="result" class="btn btn-danger">الغاء</button>
+<br>
+<div class="row">   
+   <div class="col-sm-5">
+   </div>
+   	    <div class="col-sm-7">
+           <button type="submit" class="btn btn-primary">حفظ الطقم</button>
+           <button type="result" class="btn btn-danger">الغاء</button>
+	    </div>
+</div>
+
+
+
+
 
 
 <script>
